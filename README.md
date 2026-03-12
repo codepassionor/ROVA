@@ -12,6 +12,7 @@
 [![DeepSpeed](https://img.shields.io/badge/DeepSpeed-ZeRO3-red)](https://www.deepspeed.ai/)
 [![trl](https://img.shields.io/badge/TRL-0.16.0-yellow)](https://github.com/huggingface/trl)
 
+
 ---
 
 **ROVA** is a novel training framework that improves the robustness of vision-language models for video reasoning under real-world disturbances such as weather, occlusion, and camera motion. It models a **robustness-aware consistency reward** under spatio-temporal corruptions and introduces a **difficulty-aware online training strategy** that prioritizes informative samples based on the model's evolving capability. We also introduce **PVRBench**, a new benchmark for evaluating accuracy and reasoning quality under realistic perturbations.
