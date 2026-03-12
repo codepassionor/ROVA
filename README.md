@@ -1,9 +1,10 @@
 <div align="center">
 
-# 🎬 ROVA: Robust Video Alignment for Video Reasoning
+# 🎬 Are Video Reasoning Models Ready to Go Outside?
 
-### *Empowering Vision-Language Models to Think Through Visual Chaos*
+### *ROVA: Robust Video Alignment for Video Reasoning*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2603.10652-b31b1b.svg)](https://arxiv.org/abs/2603.10652)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Qwen2.5-VL](https://img.shields.io/badge/Model-Qwen2.5--VL-blueviolet)](https://huggingface.co/Qwen)
@@ -13,11 +14,14 @@
 
 ---
 
-**ROVA** introduces a principled framework to improve video reasoning robustness in vision-language models through **structured spatio-temporal corruption**, **self-reflective difficulty-aware training**, and **dual-branch alignment optimization** — enabling models to reason accurately even under realistic visual disturbances such as weather effects, camera shake, lighting shifts, and temporal frame drops.
+**ROVA** is a novel training framework that improves the robustness of vision-language models for video reasoning under real-world disturbances such as weather, occlusion, and camera motion. It models a **robustness-aware consistency reward** under spatio-temporal corruptions and introduces a **difficulty-aware online training strategy** that prioritizes informative samples based on the model's evolving capability. We also introduce **PVRBench**, a new benchmark for evaluating accuracy and reasoning quality under realistic perturbations.
+
+> 📄 **[Are Video Reasoning Models Ready to Go Outside?](https://arxiv.org/abs/2603.10652)**
+> *Yangfan He, Changgyu Boo, Jaehong Yoon*
 
 [**Features**](#-features) · [**Architecture**](#-architecture) · [**Quick Start**](#-quick-start) · [**Training**](#-training-pipeline) · [**Evaluation**](#-inference--evaluation) · [**Results**](#-main-results)
 
-<img src="assets/dataset_demo.jpg" width="95%" alt="Dataset & Pipeline Overview"/>
+<img src="assets/fig2_overview.png" width="95%" alt="ROVA Framework Overview"/>
 
 </div>
 
@@ -264,6 +268,7 @@ problem_type = 'regression'       # → outputs numerical prediction
 robust-video-reason-main/
 ├── setup.sh                          # Environment setup script
 ├── assets/                           # Figures and visualizations
+│   ├── fig2_overview.png
 │   ├── dataset_demo.jpg
 │   ├── main_results.jpg
 │   └── fig_reward.pdf
@@ -366,10 +371,11 @@ Enable via:
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{rova2025,
-  title={ROVA: Robust Video Alignment for Video Reasoning},
-  author={Li, Sida},
-  year={2025}
+@article{he2026rova,
+  title={Are Video Reasoning Models Ready to Go Outside?},
+  author={He, Yangfan and Boo, Changgyu and Yoon, Jaehong},
+  journal={arXiv preprint arXiv:2603.10652},
+  year={2026}
 }
 ```
 
@@ -389,7 +395,7 @@ We sincerely appreciate the contributions of the open-source community, in parti
 
 <div align="center">
 
-**MIT License** · Copyright © 2025 Sida Li
+**MIT License** · Copyright © 2026 Yangfan He, Changgyu Boo, Jaehong Yoon
 
 Made with ❤️ for robust video understanding
 
