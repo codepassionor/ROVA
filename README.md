@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🎬 Are Video Reasoning Models Ready to Go Outside?
-**[Yangfan He]()**<sup>1</sup>, **[Changgyu Boo]()**<sup>2</sup>, **[Jaehong Yoon](https://jaehong31.github.io/)**<sup>1</sup>
+**[Yangfan He](https://github.com/codepassionor)**<sup>1</sup>, **[Changgyu Boo]()**<sup>2</sup>, **[Jaehong Yoon](https://jaehong31.github.io/)**<sup>1</sup>
 
 <sup>1</sup>Nanyang Technological University &nbsp;&nbsp; <sup>2</sup>Korea University
 
