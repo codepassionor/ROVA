@@ -260,7 +260,7 @@ problem_type = 'regression'       # → outputs numerical prediction
 ## 📊 Main Results
 
 <div align="center">
-<img src="assets/main_results.jpg" width="90%" alt="Main Results"/>
+<img src="assets/main_results.jpg" width="65%" alt="Main Results"/>
 </div>
 
 ---
