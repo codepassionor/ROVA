@@ -1,7 +1,9 @@
 <div align="center">
 
 # 🎬 Are Video Reasoning Models Ready to Go Outside?
+**[Yangfan He]()**<sup>1</sup>, **[Changgyu Boo]()**<sup>2</sup>, **[Jaehong Yoon](https://jaehong31.github.io/)**<sup>1</sup>
 
+<sup>1</sup>Nanyang Technological University &nbsp;&nbsp; <sup>2</sup>Korea University
 [![arXiv](https://img.shields.io/badge/arXiv-2603.10652-b31b1b.svg)](https://arxiv.org/abs/2603.10652)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -13,10 +15,6 @@
 ---
 
 **ROVA** is a novel training framework that improves the robustness of vision-language models for video reasoning under real-world disturbances such as weather, occlusion, and camera motion. It models a **robustness-aware consistency reward** under spatio-temporal corruptions and introduces a **difficulty-aware online training strategy** that prioritizes informative samples based on the model's evolving capability. We also introduce **PVRBench**, a new benchmark for evaluating accuracy and reasoning quality under realistic perturbations.
-
-**[Yangfan He]()**<sup>1</sup>, **[Changgyu Boo]()**<sup>2</sup>, **[Jaehong Yoon](https://jaehong31.github.io/)**<sup>1</sup>
-
-<sup>1</sup>Nanyang Technological University &nbsp;&nbsp; <sup>2</sup>Korea University
 
 [Paper](https://arxiv.org/abs/2603.10652)
 
