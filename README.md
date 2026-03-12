@@ -16,9 +16,6 @@
 
 **ROVA** is a novel training framework that improves the robustness of vision-language models for video reasoning under real-world disturbances such as weather, occlusion, and camera motion. It models a **robustness-aware consistency reward** under spatio-temporal corruptions and introduces a **difficulty-aware online training strategy** that prioritizes informative samples based on the model's evolving capability. We also introduce **PVRBench**, a new benchmark for evaluating accuracy and reasoning quality under realistic perturbations.
 
-> 📄 **[Are Video Reasoning Models Ready to Go Outside?](https://arxiv.org/abs/2603.10652)**
-> *Yangfan He, Changgyu Boo, Jaehong Yoon*
-
 [**Features**](#-features) · [**Architecture**](#-architecture) · [**Quick Start**](#-quick-start) · [**Training**](#-training-pipeline) · [**Evaluation**](#-inference--evaluation) · [**Results**](#-main-results)
 
 <img src="assets/fig2_overview.png" width="95%" alt="ROVA Framework Overview"/>
@@ -257,7 +254,7 @@ problem_type = 'regression'       # → outputs numerical prediction
 ## 📊 Main Results
 
 <div align="center">
-<img src="assets/main_results.jpg" width="90%" alt="Main Results"/>
+<img src="assets/main_results.jpg" width="60%" alt="Main Results"/>
 </div>
 
 ---
